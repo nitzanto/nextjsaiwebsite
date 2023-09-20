@@ -1,3 +1,5 @@
+import Feed from "@components/Feed";
+
 const Home = () => {
     return (
         <section className="w-full flex-center flex-col text-center">
@@ -8,6 +10,7 @@ const Home = () => {
             <p className="desc">
                 Promptopia is an open-source AI prompting tool
             </p>
+            <Feed/>
         </section>
 );
 };
